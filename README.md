@@ -32,8 +32,8 @@ Aplikasi web **Responsive Login System** dengan **Laravel + JWT Authentication**
 -└── Custom CSS/JS (Dark mode + Animations)
 
 ### ✅ Backend:
--├── Laravel 10.x
--├── MySQL 8.0
+-├── Laravel 12
+-├── MySQL 8.2
 -├── JWT Auth (tymon/jwt-auth)
 -├── Laravel Sanctum (HttpOnly Cookies)
 -└── Laravel Rate Limiting
