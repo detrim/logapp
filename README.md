@@ -56,6 +56,7 @@ cd logapp
 composer install --optimize-autoloader --no-dev
 cp .env.example .env
 php artisan key:generate
+php artisan jwt:secret
 npm install && npm run build
 php artisan migrate --seed
 php artisan serve
