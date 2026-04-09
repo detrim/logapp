@@ -25,62 +25,58 @@ Aplikasi web **Responsive Login System** dengan **Laravel + JWT Authentication**
 
 ### 🛠 Tech Stack
 
-Frontend: 
-├── Blade Templates
-├── Bootstrap 5.3 (Responsive)
-├── jQuery + Ajax
-└── Custom CSS/JS (Dark mode + Animations)
+### ✅ Frontend: 
+-├── Blade Templates
+-├── Bootstrap 5.3 (Responsive)
+-├── jQuery + Ajax
+-└── Custom CSS/JS (Dark mode + Animations)
 
-Backend:
-├── Laravel 10.x
-├── MySQL 8.0
-├── JWT Auth (tymon/jwt-auth)
-├── Laravel Sanctum (HttpOnly Cookies)
-└── Laravel Rate Limiting
+### ✅ Backend:
+-├── Laravel 10.x
+-├── MySQL 8.0
+-├── JWT Auth (tymon/jwt-auth)
+-├── Laravel Sanctum (HttpOnly Cookies)
+-└── Laravel Rate Limiting
 
-Tools:
-├── Composer
-├── NPM (assets)
-├── PHPUnit (Testing)
-└── Laravel Tinker
+### ✅ Tools:
+-├── Composer
+-├── NPM (assets)
+-├── PHPUnit (Testing)
+-└── Laravel Tinker
 
-🚀 Cara Menjalankan Project
+### 🚀 Cara Menjalankan Project
 
 ### Prerequisites
 PHP 8.1+ | Composer | Node.js + NPM | MySQL 8.0+ | Git
 
 ### Quick Start (5 Menit)
-
-git clone https://github.com/derim/logapp.git
-cd logapp
-composer install --optimize-autoloader --no-dev
-cp .env.example .env
-php artisan key:generate
-php artisan jwt:secret
-npm install && npm run build
-php artisan migrate --seed
-php artisan serve
+✅ git clone https://github.com/derim/logapp.git
+✅ cd logapp
+✅ composer install --optimize-autoloader --no-dev
+✅ cp .env.example .env
+✅ php artisan key:generate
+✅ php artisan jwt:secret
+✅ npm install && npm run build
+✅ php artisan migrate --seed
+✅ php artisan serve
 
 ### 🏗 Arsitektur Sistem
+✅ Frontend (Blade/Ajax) 
+--- ↓ Ajax POST
+✅ API Routes (JWT Middleware)
+--- ↓ Auth Check
+✅ MySQL + Bcrypt → Dashboard (Protected)
 
-Frontend (Blade/Ajax) 
-    ↓ Ajax POST
-API Routes (JWT Middleware)
-    ↓ Auth Check
-MySQL + Bcrypt → Dashboard (Protected)
-
-🔒 Security
+### 🔒 Security
 ✅ JWT + HttpOnly Cookie
 ✅ Bcrypt Hashing
 ✅ Rate Limit (5x/min/IP)
 ✅ CSRF Protection
 
 ### 🧪 Testing
+✅ php artisan test
 
-php artisan test
-
-📊 API Endpoints
-
+### 📊 API Endpoints
 POST /api/login
 POST /api/logout  
 GET  /api/user
