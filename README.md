@@ -26,23 +26,23 @@ Aplikasi web **Responsive Login System** dengan **Laravel + JWT Authentication**
 ### 🛠 Tech Stack
 
 ### ✅ Frontend: 
--├── Blade Templates
--├── Bootstrap 5.3 (Responsive)
--├── jQuery + Ajax
--└── Custom CSS/JS (Dark mode + Animations)
+- [x]├── Blade Templates
+- [x]├── Bootstrap 5.3 (Responsive)
+- [x]├── jQuery + Ajax
+- [x]└── Custom CSS/JS (Dark mode + Animations)
 
 ### ✅ Backend:
--├── Laravel 12
--├── MySQL 8.2
--├── JWT Auth (tymon/jwt-auth)
--├── Laravel Sanctum (HttpOnly Cookies)
--└── Laravel Rate Limiting
+- [x]├── Laravel 12
+- [x]├── MySQL 8.2
+- [x]├── JWT Auth (tymon/jwt-auth)
+- [x]├── Laravel Sanctum (HttpOnly Cookies)
+- [x]└── Laravel Rate Limiting
 
 ### ✅ Tools:
--├── Composer
--├── NPM (assets)
--├── PHPUnit (Testing)
--└── Laravel Tinker
+- [x]├── Composer
+- [x]├── NPM (assets)
+- [x]├── PHPUnit (Testing)
+- [x]└── Laravel Tinker
 
 ### 🚀 Cara Menjalankan Project
 
@@ -50,37 +50,37 @@ Aplikasi web **Responsive Login System** dengan **Laravel + JWT Authentication**
 PHP 8.1+ | Composer | Node.js + NPM | MySQL 8.0+ | Git
 
 ### Quick Start (5 Menit)
-✅ git clone https://github.com/derim/logapp.git
-✅ cd logapp
-✅ composer install --optimize-autoloader --no-dev
-✅ cp .env.example .env
-✅ php artisan key:generate
-✅ php artisan jwt:secret
-✅ npm install && npm run build
-✅ php artisan migrate --seed
-✅ php artisan serve
+- [x] git clone https://github.com/derim/logapp.git
+- [x] cd logapp
+- [x] composer install --optimize-autoloader --no-dev
+- [x] cp .env.example .env
+- [x] php artisan key:generate
+- [x] php artisan jwt:secret
+- [x] npm install && npm run build
+- [x] php artisan migrate --seed
+- [x] php artisan serve
 
 ### 🏗 Arsitektur Sistem
-✅ Frontend (Blade/Ajax) 
---- ↓ Ajax POST
-✅ API Routes (JWT Middleware)
---- ↓ Auth Check
-✅ MySQL + Bcrypt → Dashboard (Protected)
+- [x] Frontend (Blade/Ajax) 
+- [-] --- ↓ Ajax POST
+- [x] API Routes (JWT Middleware)
+- [-] --- ↓ Auth Check
+- [x] MySQL + Bcrypt → Dashboard (Protected)
 
 ### 🔒 Security
-✅ JWT + HttpOnly Cookie
-✅ Bcrypt Hashing
-✅ Rate Limit (5x/min/IP)
-✅ CSRF Protection
+- [x] JWT + HttpOnly Cookie
+- [x] Bcrypt Hashing
+- [x] Rate Limit (5x/min/IP)
+- [x] CSRF Protection
 
 ### 🧪 Testing
-✅ php artisan test
+- [x] php artisan test
 
 ### 📊 API Endpoints
-POST /api/login
-POST /api/logout  
-GET  /api/user
-GET  /dashboard
+- [x] POST /api/login
+- [x] POST /api/logout  
+- [x] GET  /api/user
+- [x] GET  /dashboard
 
 
 ## 📱 Demo Screenshots
