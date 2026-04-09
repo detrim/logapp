@@ -52,6 +52,7 @@ PHP 8.1+ | Composer | Node.js + NPM | MySQL 8.0+ | Git
 ### Quick Start (5 Menit)
 - [x] git clone https://github.com/detrim/logapp.git
 - [x] cd logapp
+- [x] composer install
 - [x] cp .env.example .env
 - [x] php artisan key:generate
 - [x] php artisan jwt:secret
